@@ -2,7 +2,7 @@
 
 ## Overview
 
-This year the Ada staff has generously agreed to contribute their culinary skills to a coding bootcamp booth offering food & info pamphlets at the [Georgetown Carnival](http://www.georgetowncarnival.com/). It's the day before the festivities kick off and _someone's_ Cavalier King Charles Spaniel has done his best to shred all of their recipes! Oh no! Can you help Ada staff put everything back together and save Carnival?
+This year the Ada staff has generously agreed to contribute their culinary skills to a coding bootcamp booth offering food & info pamphlets at the [Georgetown Carnival](https://georgetownseattle.org/georgetown-carnival-june-8-2024/). It's the day before the festivities kick off and _someone's_ Cavalier King Charles Spaniel has done his best to shred all of their recipes! Oh no! Can you help Ada staff put everything back together and save Carnival?
 
 In this activity you'll be working with your fellow Adies to put together multiple scraps from a single recipe using Git. You'll accomplish this by successively merging in content from each individuals' copy of the recipes repo. Once all the of merges are finished (and any merge conflicts resolved) you'll have a complete recipe document which can be submitted to the original repository with a pull request.
 
@@ -28,11 +28,11 @@ Before we can start putting the recipe together we need to make sure that everyo
    - Rhino
    - Tarsier
  
-2. **Fork the activity repo**: One person in your group should fork the [carnival-recipes](https://github.com/AdaGold/carnival-recipes) repo and then add everyone else as a collaborator.
+2. **Fork the activity repo**: One person in your group should fork the [carnival-recipes](https://github.com/Ada-C22/carnival-recipes) repo and then add everyone else as a collaborator.
     - To add collaborators, go to **Settings** --> **Manage access** --> **Invite teams or people**
     - Invite collaborators will need to accept the invitation. 
 3. **Clone the forked repo**: Everyone in your group should clone the forked repository.
-    - Check that you have the proper remote (and not the AdaGold remote) by typing `git remote -v` in the terminal.
+    - Check that you have the proper remote (and not the Ada-C22 remote) by typing `git remote -v` in the terminal.
 
 4. **Find your recipe scrap**: Each group is assigned six(6) or seven(7) recipe scraps, located in the `/scraps` directory, that should all be part of the same recipe. You can split these scraps up amongst your group however you wish.
 
@@ -45,7 +45,7 @@ Once everyone in your group has completed the baseline setup instructions above 
 2. **Add your recipe scrap**: Copy the contents of your recipe scrap into the recipe file and then add and commit your changes to the recipe file. After completing this step each person in your group should have **different** content within the recipe file in their local repository.
 3. Each team member will push their changes up to github with `git push origin BRANCH-NAME`.
 4. Each team member will open a **pull request** trying to merge their branch on github into `main`.  **Be very careful to make the PR against your forked repository and NOT AdaGold.**
-    - To make the PR against your team members forked respository and not AdaGold, we will need to change the base repository
+    - To make the PR against your team members forked repository and not AdaGold, we will need to change the base repository
     - If there is a report of a merge conflict you will need to:
        - Pull the current state of main into **their feature branch** with `git pull origin main`
        - in VS code select **accept both changes**
@@ -98,8 +98,4 @@ There are several ways for teams to collaborate on a project and handle merging 
   - Branching is generally considered the heart of a Git-based workflow and you'll have an opportunity to try it on a larger team project.  This is what we're trying today!
 
 # Resources
-
-- [Original Diagram Image](https://www.lucidchart.com/invitations/accept/c3fd712e-9be6-4fec-be51-9d433d7ed941)
-- [Intro to Git](https://learn-2.galvanize.com/cohorts/2498/blocks/1032/content_files/intro-to-git/collaborating.md) 
-- [Branches in Git](https://learn-2.galvanize.com/cohorts/2498/blocks/1441/content_files/branches-in-git/branches.md).
 - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
